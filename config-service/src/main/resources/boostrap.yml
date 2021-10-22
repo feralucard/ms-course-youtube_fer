@@ -1,7 +1,9 @@
 server:
-  port: 8081
+  port: 8010
 
 spring:
+  profile:
+    active: native
   cloud:
     config:
       server:
