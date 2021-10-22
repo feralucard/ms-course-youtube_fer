@@ -1,8 +1,8 @@
 spring:
     application:
-      name: custumer-service
+      name: customer-service
     cloud:
       config:
-        url: http://localhost:8089
+        uri: http://localhost:8081
         username: root
         password: s3cr3t
